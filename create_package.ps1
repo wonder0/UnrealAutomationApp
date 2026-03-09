@@ -1,0 +1,1 @@
+pyinstaller --noconfirm --onedir --windowed --name "UnrealTool" --add-data "App/logo.png;." --add-data "App/logo.ico;." --add-data "App/Scripts;Scripts" --icon="App/logo.ico" --collect-all unreal_stylesheet App/main.py
